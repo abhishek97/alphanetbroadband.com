@@ -1,0 +1,38 @@
+#bannerFB{
+    background-image: url(../images/home/FB.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 381px;
+    
+}
+#bannerFB > h2{
+ color: white;
+}
+
+#bannerRow{
+    margin-top: 70px;
+    height: 200px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: white;
+   
+}
+
+#bannerTitle{
+    padding-right: 150px;
+}
+
+#headNavbar{
+
+    height: 55px;
+}
+
+.headNavbarShadow{
+-webkit-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+}
+
+.navbar-brand > h1 > img {
+    width: 300px;
+}
