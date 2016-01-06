@@ -16,15 +16,23 @@ $(function() {
 $(window).scroll(function(){
     var scrollPos = $(document).scrollTop();
     
-   if(scrollPos < 62 )
-        $('.navbar-brand > h1 > img').css('width' , 300-(2.258*scrollPos) );
+   if(scrollPos < 32 )
+        $('.navbar-brand > h1 > img').css('width' , 300-(4*scrollPos) );
     
-    if(scrollPos >= 62)
+    if(scrollPos >= 32)
         $('.navbar-brand > h1 > img').css('width' ,160 );
     
-    if(scrollPos>=62)
-        $('#headNavbar').addClass('navbar-fixed-top').addClass('headNavbarShadow');
-    else
-        $('#headNavbar').removeClass('navbar-fixed-top').removeClass('headNavbarShadow');
+    if(scrollPos>=32)
+    {
+        $('#headNavbar').addClass('headNavbarShadow').css('margin-top', 0);
+        $('#header').css('padding-top' , 0);
+    }
+    else{
+        $('#headNavbar').removeClass('headNavbarShadow').css('margin-top', 20);
+        $('#header').css('padding-top' , 10);
+        
+    }
         
 });
+
+

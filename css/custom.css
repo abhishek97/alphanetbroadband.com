@@ -23,11 +23,13 @@
 }
 
 #headNavbar{
-
     height: 55px;
 }
 
 .headNavbarShadow{
+    position: fixed;
+    width: 100%;
+    z-index:999;
 -webkit-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
@@ -35,4 +37,8 @@ box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
 
 .navbar-brand > h1 > img {
     width: 300px;
+}
+#collapsed{
+    z-index: 10000;
+   
 }
