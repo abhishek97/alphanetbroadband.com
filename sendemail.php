@@ -1,8 +1,8 @@
 <?php
-$name       =stripslashes($_POST["name"]); 
-$from       = stripslashes($_POST["email"]); 
-$subject    = stripslashes($_POST["subject"]); 
-$message    = stripslashes($_POST["message"]); 
+$name       =stripslashes($_POST['name']); 
+$from       = stripslashes($_POST['email']); 
+$subject    = stripslashes($_POST['subject']); 
+$message    = stripslashes($_POST['message']); 
 $to   		= 'admin@alphanetbroadband.com';//replace with your email
 
 $headers   = array();
