@@ -46,9 +46,17 @@ box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
 #specialPlan {
     animation: glow .5s infinite alternate;
 }
+#economy{
+    animation: glow2 .5s infinite alternate;
+}
 
 @keyframes glow {
     to {
         text-shadow: 0 0 15px red;
+    }
+}
+@keyframes glow2 {
+    to {
+        text-shadow: 0 0 15px blue;
     }
 }
